@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var count = 0;
+  console.log('hello');
 
   $("#scrape").on("click", function(event) {
     event.preventDefault();
